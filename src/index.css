@@ -7,6 +7,22 @@ body {
   --bs-navbar-toggler-border-color: transparent !important;
 }
 
+.main-weather-box {
+  background: red;
+}
+
+.humidity-box {
+  background: blue;
+}
+
+.date-box {
+  background: orange;
+}
+
+ul {
+  list-style: none;
+}
+
 @media (max-width: 900px) {
   form {
     margin-top: 10px;
