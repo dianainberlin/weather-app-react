@@ -7,24 +7,43 @@ body {
   --bs-navbar-toggler-border-color: transparent !important;
 }
 
+.container {
+  padding: 0;
+}
+
+.boxes {
+  grid-gap: 10px;
+}
+
 .main-weather-box {
-  background: red;
+  background: #f5f5f5;
 }
 
 .humidity-box {
-  background: blue;
+  background: #f5f5f5;
 }
 
 .date-box {
-  background: orange;
+  background: #f5f5f5;
 }
 
 ul {
   list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 70px;
 }
 
 @media (max-width: 900px) {
   form {
     margin-top: 10px;
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
